@@ -1,0 +1,36 @@
+h1,
+h2,
+h3,
+h4,
+h5 {
+  text-transform: unset !important;
+}
+
+.intro-box {
+  font-size: 100px;
+  color: white;
+  display: inline-block !important;
+  border-radius: 6px;
+  width: 30%;
+  text-shadow: 1px 1px 0 black;
+  background-color: grey;
+}
+
+.intro-box.yellow {
+  background-color: yellow;
+}
+
+.reveal pre code {
+  font-size: 90%;
+}
+
+h1 code,
+h2 code,
+h3 code,
+li code,
+p code,
+dt code {
+  background: #884bbb;
+  padding: 0 6px;
+  border-radius: 10px;
+}
